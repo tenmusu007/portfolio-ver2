@@ -3,10 +3,11 @@ export const StyledIntro = styled.section`
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
-    display: fixed;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    height: 400px;
     background-color: rgb(55,15,15,50%);
+    justify-content: space-evenly;
+    align-items: center;
     /* opacity: 50%; */
     .introImg{
         width: 200px;
@@ -14,14 +15,11 @@ export const StyledIntro = styled.section`
         background-color: aqua;
     }
     .introTxt{
+        text-align: center;
         p{
-            text-align: center;
             color: white;
             font-size: 30px;
-            padding:5px 5px;
+            padding:10px 5px;
         }
-    }
-    .btn{
-        margin: 10px;
     }
 `

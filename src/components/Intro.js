@@ -4,7 +4,7 @@ import { StyledIntro } from "./styles/Intro.styled"
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
-    btnColor: {
+    btncolor: {
       // Purple and green play nicely together.
       main: '#EE6F57',
     },
@@ -24,7 +24,7 @@ export const Intro = () => {
           <p>ATSUYA TANAKA</p>
           <p>Jounier</p>
           <p>Front-End Developer</p>
-          <Button variant='contained' color="btnColor" className='btn' > Resume </Button>
+            <Button Button variant='contained' color="btncolor" > Resume </Button>
         </div>
       </StyledIntro>
     </ThemeProvider>

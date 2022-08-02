@@ -1,7 +1,4 @@
 import './App.css';
-import Button from '@mui/material/Button';
-import { Typography } from '@mui/material';
-import HomeIcon from '@mui/icons-material/Home';
 import { Header } from './components/Header';
 import { AboutMe } from './components/AboutMe';
 import { Work } from './components/Work';
