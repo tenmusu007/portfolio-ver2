@@ -3,8 +3,9 @@ export const StyledIntro = styled.section`
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
+    padding: 50px 0;
     display: flex;
-    height: 400px;
+    height: auto;
     background-color: rgb(55,15,15,50%);
     justify-content: space-evenly;
     align-items: center;

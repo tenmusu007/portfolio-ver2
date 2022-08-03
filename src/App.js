@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { AboutMe } from './components/AboutMe';
 import { Work } from './components/Work';
 import { Intro } from './components/Intro';
+import { Contact } from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <Intro/>
       <AboutMe />
       <Work />
+      <Contact/>
       
       {/* <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
