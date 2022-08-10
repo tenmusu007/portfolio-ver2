@@ -1,20 +1,28 @@
 import styled from "styled-components";
 export const StyledContact = styled.section`
-            width: 90%;
-            margin: 100px auto;
-            height: 300px;
-            background-color: red;
+            font-family: 'Playfair Display', serif;
+            width: 100%;
+            margin: 0px auto;
+            margin-top: 100px ;
+            height: auto;
+            background-color: white;
             align-items: center;
-            padding: 50px 0;
+            /* padding: 50px 0 0 0; */
             .contactTxt{
-                text-align: center;
-                /* padding: 50px 0; */
+                text-align: left;
             }
             .iconContainer{
-                font-size: 40px;
+                font-size: 25px;
                 display: flex;
-                justify-content: space-around;
-                padding: 50px 0;
+                justify-content: center;
+                padding: 30px 0 0 0;
+            }
+            .icon{
+                margin:0 10px 0 10px ;
+            }
+            .mail{
+                padding: 20px 0 5px 0;
+                text-align: center;
             }
 
 `

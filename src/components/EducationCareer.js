@@ -1,24 +1,24 @@
 import React from 'react'
 import { Grid } from '@mui/material'
+import { Icon } from '@iconify/react';
 
 
 export const EducationCareer = () => {
     return (
-            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2 }}>
-                <Grid item xs={6}>
-                    <div>
-                        <div className='AboutMeImg'>Img</div>
-                    </div>
-                        <p className='eduTxt'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget volutpat lorem, a lobortis augue. Maecenas a dignissim velit. Vestibulum vehicula convallis massa sit amet porttitor. Maecenas eleifend, tellus at feugiat porta, elit diam finibus ipsum, a malesuada enim arcu sit amet ipsum.
-                        </p>
-                </Grid>
-                <Grid item xs={6}>
-                    <div>
-                        <div className='AboutMeImg'>Img</div>
-                    </div>
-                    <p className='eduTxt'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget volutpat lorem, a lobortis augue. Maecenas a dignissim velit. Vestibulum vehicula convallis massa sit amet porttitor. Maecenas eleifend, tellus at feugiat porta, elit diam finibus ipsum, a malesuada enim arcu sit amet ipsum.
-                        </p>
-                </Grid>
+        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2 }}>
+            <Grid item xs={12}>
+                <Icon icon="logos:html-5" />
+                <Icon icon="vscode-icons:file-type-js-official" />
+                <Icon icon="logos:jquery" />
+                <Icon icon="logos:react" />
             </Grid>
+            <Grid item xs={12}>
+                <Icon icon="logos:css-3" />
+                <Icon icon="vscode-icons:file-type-scss" />
+                <Icon icon="logos:tailwindcss-icon" />
+                <Icon icon="logos:material-ui" />
+                <Icon icon="logos:bootstrap" />
+            </Grid>
+        </Grid>
     )
 }

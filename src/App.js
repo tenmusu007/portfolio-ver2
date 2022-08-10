@@ -1,24 +1,24 @@
 import './App.css';
-import { Header } from './components/Header';
-import { AboutMe } from './components/AboutMe';
-import { Work } from './components/Work';
-import { Intro } from './components/Intro';
-import { Contact } from './components/Contact';
-function App() {
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import DetailWork from './components/DetailWork';
+import { LinkProvider } from "./useContext/linkContext"
+import { useLinkContext } from '../src/useContext/linkContext';
+import { useState } from 'react';
+import data from './workData/data';
+
+
+function App(props) {
+  // const { link, setLink } = useLinkContext()
   return (
-    <div className="App">
-      <Header />
-      <Intro/>
-      <AboutMe />
-      <Work />
-      <Contact/>
-      
-      {/* <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-      <Typography variant='h1' mt={2}> Hello </Typography>
-      <HomeIcon></HomeIcon> */}
-    </div>
+    <LinkProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path={'/:id'} element={<DetailWork data={data} />} />
+        </Routes>
+      </BrowserRouter>
+    </LinkProvider>
   );
 }
 

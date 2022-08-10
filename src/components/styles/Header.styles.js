@@ -1,9 +1,13 @@
 import styled from "styled-components";
 export const StyledHeader = styled.header`
         /* position: sticky; */
+        font-family: 'Playfair Display', serif;
+        align-items: center;
+        height: 50px;
+        color: #00473E;
         position: fixed; 
         top: 0;
-        background-color: #D9D9D9;
+        background-color: #FFFFFE;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -15,9 +19,27 @@ export const StyledHeader = styled.header`
         }
         .headerMenu{
             display: flex;
-            padding-right: 10px;
+            padding-right: 30px;
             p{
-                padding: 0 10px 0 10px;
+                padding: 0 15px 0 15px;
+                margin-left: 5px;
+                transition: all 1.5s ease-in-out;
             }
+            p:hover{
+                /* outline:  1px solid #00473E; */
+                background-color: #00473E;
+                color: white;
+            }
+            a{
+                color: #00473E;
+                text-decoration:none;
+                transition: all 1s ease-in-out;
+            }
+            a:hover{
+                color: white;
+            }
+        }
+        .homeBtn{
+            
         }
 `

@@ -3,14 +3,13 @@ import { StyledContact } from './styles/Contact.styled'
 import { Icon } from '@iconify/react';
 export const Contact = () => {
     return (
-        <StyledContact>
-            <h2 className='contactTxt'>Contact</h2>
+        <StyledContact id='contact'>      
             <div className='iconContainer'>
-                <Icon icon="akar-icons:linkedin-v1-fill" />
-                <Icon icon="ant-design:mail-outlined" />
-                <Icon icon="akar-icons:github-fill" />
-                <Icon icon="line-md:instagram" />
+                <Icon icon="akar-icons:linkedin-v1-fill" className='icon' />
+                <Icon icon="akar-icons:github-fill" className='icon' />
+                <Icon icon="brandico:facebook-rect" className='icon' />
             </div>
+            <p className='mail'>tenmusu007@gamil.com</p>
             
         </StyledContact>
     )
