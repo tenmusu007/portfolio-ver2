@@ -7,6 +7,7 @@ const Backend = () => {
   const iconArr = [{ icon: "vscode-icons:file-type-node" }, { icon: "logos:firebase" }, { icon: "logos:mongodb-icon" }, { icon: "logos:npm", width: "70px", size: "15px"}]
   return (
     <StyledFrontend>
+      <h3 className='icontitle'>Backend</h3>
     <Grid rowSpacing={2} columnSpacing={{ xs: 1, sm: 2 }}className="grid">
         <Grid item xs={12} className="iconContainer">
         {iconArr.map((icon, index) => {

@@ -8,7 +8,7 @@ const Frontend = () => {
   const iconArrStyle = ["logos:css-3", "vscode-icons:file-type-scss", "logos:material-ui", "logos:bootstrap"]
   return (
     <StyledFrontend>
-
+      <h3 className='icontitle'>Forntend</h3>
     <Grid  rowSpacing={2} columnSpacing={{ xs: 1, sm: 2 }} className="grid">
         <Grid item xs={12} className="iconContainer">
           {iconArr.map((icon, index) => {

@@ -10,7 +10,7 @@ export function LinkProvider({ children }) {
         loop: true,
         
     })
-    console.log("context",link);
+    // console.log("context",link);
     const to = {
         link, setLink
     };

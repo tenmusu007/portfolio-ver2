@@ -4,10 +4,14 @@ export const StyledContact = styled.section`
             width: 100%;
             margin: 0px auto;
             margin-top: 100px ;
+            padding-bottom: 30px;
             height: auto;
             background-color: white;
             align-items: center;
             /* padding: 50px 0 0 0; */
+            a{
+                color: black;
+            }
             .contactTxt{
                 text-align: left;
             }
@@ -21,7 +25,7 @@ export const StyledContact = styled.section`
                 margin:0 10px 0 10px ;
             }
             .mail{
-                padding: 20px 0 5px 0;
+                padding: 30px 0 5px 0;
                 text-align: center;
             }
 

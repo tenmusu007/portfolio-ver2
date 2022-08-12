@@ -1,19 +1,26 @@
 import styled from "styled-components";
 export const StyledAboutMe = styled.section`
         font-family: 'Playfair Display', serif;
-        width: 90%;
+        width: 75%;
         margin: 0 auto;
         margin-top: 100px;
         height: auto;
-        background-color: #00473E;
-        background-color: #00ad97;
-        background-color: #007a6b;
-        background-image: url('${process.env.PUBLIC_URL}/img/bgimg2.jpg');
+        background-image: url('${process.env.PUBLIC_URL}/img/bgimg4.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         padding: 50px;
         color: white;
+    @media only screen and (max-width: 900px) {
+            height: 100vh;
+            background-image: url('${process.env.PUBLIC_URL}/img/bgimg4.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;    
+            background-position-x: 50%;
+        height: auto;
+
+    }
         .bgColor{
         background-color: rgb(255,255,255,75%);
         color: black;
@@ -21,6 +28,10 @@ export const StyledAboutMe = styled.section`
         .AboutMeTitle{
             text-align: center;
             margin: 15px 0 15px 0;
+            padding-top: 30px;
+            font-weight: 300;
+            font-size: 30px;
+            font-family: sans-serif;
         }
         .imgContainer{
             width: 75%;
@@ -33,25 +44,33 @@ export const StyledAboutMe = styled.section`
             object-fit: contain;
         }
         .aboutTxt{
-            padding: 10px 70px;
-            line-height: 2.5;
-        }
-        .eduTxt{
-            padding: 10px 30px;
+            padding: 20px 70px;
+            line-height: 2;
         }
         .grid{
             margin-right: 16px;
         }
+        .iconWrapper{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        @media only screen and (max-width: 900px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        }
         .icontitle{
-            padding-left: 30px;
             padding-top: 0.5rem;
+        }
+        @media only screen and (max-width: 900px) {
+            /* padding-left: 0; */
         }
         .iconContainer{
             margin: 10px 0 0 0 ;
             padding-bottom: 10px
         }
         .iconbg{
-            background-color: white;
+            /* background-color: white; */
             text-align: center;
             border-radius: 12px;
             display: inline-block;
@@ -63,5 +82,31 @@ export const StyledAboutMe = styled.section`
             margin: 5px 10px 0 10px;
             font-size: 25px;
         }
-
-`
+        @media only screen and (max-width: 600px) {
+            .aboutTxt{
+                width: 75%;
+                padding: 0px 0px;
+                line-height: 2;
+                font-size: 10px;
+                margin: 0 auto;
+            }
+            .imgContainer{
+                width: 75%;
+                height: 240px;
+                margin: 0 auto;
+            }
+            .AboutMeTitle{
+            text-align: center;
+            margin: 15px 0 0px 0;
+            padding-top: 30px;
+            font-weight: 300;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        .icontitle{
+            padding-top: 0.5rem;
+            font-size: 15px;
+        }
+        }
+            
+            `

@@ -6,20 +6,7 @@ import { useLinkContext } from '../useContext/linkContext';
 // import bg from "./styles/bgImg"
 
 
-export const theme = createTheme({
-  palette: {
-    btncolor: {
-      // Purple and green play nicely together.
-      main: '#EE6F57',
-    },
-  },
-  typography: {
-    fontFamily: [
-      'Playfair Display',
-      'serif'
-    ].join(','),
-  }
-});
+
 export const Intro = () => {
   const { link, setLink } = useLinkContext()
   const [animation, setAnimation] = useState("") 
@@ -27,7 +14,8 @@ export const Intro = () => {
 
   useEffect(() => {
     let store = ""
-    link.link.forEach((letter, i) => {
+    const txt = ["W", "e", "l", "c", "o", "m", "e", "!"]
+    txt.forEach((letter, i) => {
       setTimeout(() => {
         store = store + letter
         setAnimation(store)
@@ -40,7 +28,9 @@ export const Intro = () => {
 
   return (
     // <ThemeProvider theme={theme}>
-      <StyledIntro >
+    <StyledIntro >
+      <div className='bgimg'></div>
+      <div className='Container'>
         <h1 className='welcome' id='home' >{animation}</h1>
         <Grid container
           direction="row"
@@ -56,6 +46,7 @@ export const Intro = () => {
             {/* </Typography> */}
           </Grid>
         </Grid>
+        </div>
       </StyledIntro>
     // </ThemeProvider>
   )

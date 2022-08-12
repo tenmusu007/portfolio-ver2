@@ -8,7 +8,7 @@ const Footer = () => {
     const { link, setLink } = useLinkContext()
     return (
         <StyledFooter>
-            <p onClick={() => setLink({ link: [...link.link], loop: !link.loop })}>
+            <p onClick={() => setLink({ loop: !link.loop })}>
                 <AnchorLink href='#home'>
                     <KeyboardDoubleArrowUpIcon color='black' className='arrow'/>
                 </AnchorLink>

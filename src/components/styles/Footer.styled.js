@@ -8,8 +8,8 @@ export const StyledFooter = styled.div`
         width: 2rem;
         height: 30px;
         color: black;
-        bottom: 20px;
-        right: 50px;
+        bottom: 25px;
+        right: 25px;
         /* padding: 10px; */
         border-radius: 10px;        
         p{

@@ -6,16 +6,15 @@ import data from "../workData/data"
 import { useLinkContext } from '../useContext/linkContext';
 
 export const Work = (props) => {
-  const { link, setLink } = useLinkContext()
-  // console.log("work", props.test);
-  // console.log("work", props.setTest("atsu"));
+  const { link, setLink } = useLinkContext() 
   return (
     <StyledWork id='work'>
+
       <h2 className='WorkTitle'>Work</h2>
-      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
         {data.map((data, index) => {
           return (
-            <Grid item xs={6} className='grid' key={index} onClick={() => {setLink(data.to) }}>
+            <Grid item xs={12} sm={12} md={6} className='grid' key={index} onClick={() => {setLink(data.to) }}>
               <Link to={`/${data.to}`}>
                 <div className='WorkImgContainer'>
                   <img className='WorkImg' src={data.pic[0]} alt="workPic" />

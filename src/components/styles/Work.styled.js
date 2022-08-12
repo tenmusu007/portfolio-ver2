@@ -1,17 +1,19 @@
 import styled from "styled-components";
 export const StyledWork = styled.section`
             font-family: 'Playfair Display', serif;
-            width: 90%;
+            width: 75%;
             margin: 0 auto;
             margin-top: 85px;
             height: auto;
-            background-color: white;
+            background-color: #F8F8F8;
             padding: 50px 0;
             border: 2px solid black;
             .WorkTitle{
                 text-align: center;
-                color: #00473E;
                 margin-bottom: 20px;
+                font-size: 35px;
+                font-family: sans-serif;
+                font-weight: 300;
             }
             .WorkImgContainer{
                 width: 50%;
@@ -21,9 +23,10 @@ export const StyledWork = styled.section`
                     width: 100%;
                     height: 100%;
                     object-fit: contain;
-                    outline: 1.5px solid black;
-                    -webkit-box-shadow: 5px 5px 15px 5px #6B6B6B; 
-                    box-shadow: 5px 5px 15px 5px #6B6B6B;
+                    box-shadow:  22px 22px 44px #d3d3d3,
+                    -22px -22px 44px #ffffff;
+/* box-shadow: inset 35px 35px 70px #bfbfbf,
+            inset -35px -35px 70px #ffffff; */
                 }
             }
                 .workTxt{

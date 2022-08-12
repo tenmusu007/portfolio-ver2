@@ -3,6 +3,7 @@ import React from 'react'
 import { AboutIntro } from './AboutIntro'
 import Backend from './skill/Backend'
 import Frontend from './skill/Frontend'
+import Skilles from './Skilles'
 import { StyledAboutMe } from "./styles/AboutMe.styled"
 
 export const AboutMe = () => {
@@ -11,11 +12,10 @@ export const AboutMe = () => {
       <div className='bgColor'>
       <h2 className='AboutMeTitle' >About me</h2>
       <AboutIntro />
-      <h2 className='AboutMeTitle'>Skilles</h2>
-      <h3 className='icontitle'>Forntend</h3>
+      {/* <h2 className='AboutMeTitle'>Skilles</h2>
       <Frontend />
-      <h3 className='icontitle'>Backend</h3>
-      <Backend/>
+      <Backend/> */}
+        <Skilles />
       </div>
     </StyledAboutMe>
   )
