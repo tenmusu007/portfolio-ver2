@@ -18,7 +18,9 @@ export const StyledAboutMe = styled.section`
             background-size: cover;
             background-attachment: fixed;    
             background-position-x: 50%;
-        height: auto;
+            height: auto;
+            padding: 30px;
+
 
     }
         .bgColor{
