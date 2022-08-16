@@ -1,11 +1,12 @@
+import link from "../img/linkTree.png";
+import link2 from "../img/linkTree2.png";
+
+
 const data = [
 	{
 		title: "Link Tree",
 		to: "Link-Tree",
-		pic: [
-			`${process.env.PUBLIC_URL}/img/linkTree.png`,
-			`${process.env.PUBLIC_URL}/img/linkTree2.png`,
-		],
+		pic: [link, link2],
 		work: "https://main.d299m0b6ietato.amplifyapp.com/",
 		repoUrl: "https://github.com/tenmusu007/link-tree-ver1.6",
 		desc: "Link Tree is link organized web application",
@@ -15,10 +16,7 @@ const data = [
 	{
 		title: "Black Jack",
 		to: "Black-Jack",
-		pic: [
-			`${process.env.PUBLIC_URL}/img/blackjack.png`,
-			`${process.env.PUBLIC_URL}/img/blackjackplay.png`,
-		],
+		pic: [`../img/blackjack.png`, `../img/blackjackplay.png`],
 		work: "https://tenmusu007.github.io/bj-var.1.0/",
 		repoUrl: "https://github.com/tenmusu007/bj-var.1.0",
 		desc: "Black Jack is simple card game.",
@@ -29,9 +27,9 @@ const data = [
 		title: "Black Jack - React",
 		to: "Black-Jack-React",
 		pic: [
-			`${process.env.PUBLIC_URL}/img/blackjackReact.png`,
-			`${process.env.PUBLIC_URL}/img/bjReactplay.png`,
-			`${process.env.PUBLIC_URL}/img/bjReactbet.png`,
+			`../img/blackjackReact.png`,
+			`../img/bjReactplay.png`,
+			`../img/bjReactbet.png`,
 		],
 		work: "https://main.d35692rvcqwiy8.amplifyapp.com/",
 		repoUrl: "https://github.com/tenmusu007/blackjack-react",
@@ -43,13 +41,13 @@ const data = [
 		title: "Portfolio",
 		to: "Portfolio",
 		pic: [
-			`${process.env.PUBLIC_URL}/img/portfolio.png`,
-			`${process.env.PUBLIC_URL}/img/portfolio.png`,
-			`${process.env.PUBLIC_URL}/img/bjReactbet.png`,
+			`../img/portfolio.png`,
+			`../img/portfolio.png`,
+			`../img/bjReactbet.png`,
 		],
 		work: "url",
 		repoUrl: "http//url",
 		desc: "This is my Portfolio",
 	},
 ];
-export default data
+export default data;
