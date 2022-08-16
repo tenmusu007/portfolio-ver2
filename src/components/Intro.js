@@ -1,14 +1,13 @@
-import { Button, Grid, Typography } from '@mui/material'
+import { Button, Grid } from '@mui/material'
 import React, { useEffect, useState } from 'react'
 import { StyledIntro } from "./styles/Intro.styled"
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useLinkContext } from '../useContext/linkContext';
 // import bg from "./styles/bgImg"
 
 
 
 export const Intro = () => {
-  const { link, setLink } = useLinkContext()
+  const { link } = useLinkContext()
   const [animation, setAnimation] = useState("") 
   const [loopCount, setLoopCount] = useState(0) 
 
@@ -27,7 +26,6 @@ export const Intro = () => {
 
 
   return (
-    // <ThemeProvider theme={theme}>
     <StyledIntro >
       <div className='bgimg'></div>
       <div className='Container'>
@@ -41,13 +39,10 @@ export const Intro = () => {
           <Grid item xs={12} >
             <p className='name'>ATSUYA TANAKA</p>
             <p className='frontend'>Front-End Developer</p>
-            {/* <Typography> */}
             <Button variant='contained' color="btncolor"  className='btnFont' > Resume </Button>
-            {/* </Typography> */}
           </Grid>
         </Grid>
         </div>
       </StyledIntro>
-    // </ThemeProvider>
   )
 }

@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #F2F7F5;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
-    
-    
 }
