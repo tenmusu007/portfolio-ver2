@@ -1,7 +1,16 @@
-import React from 'react'
+import React from "react";
+import { AboutIntro } from "./AboutIntro";
+import Skilles from "./Skilles";
+import { StyledAboutMe } from "./styles/AboutMe.styled";
 
 export const AboutMe = () => {
-  return (
-    <div>AboutMe</div>
-  )
-}
+	return (
+		<StyledAboutMe id='aboutme'>
+			<div className='bgColor'>
+				<h2 className='AboutMeTitle'>About me</h2>
+				<AboutIntro />
+				<Skilles />
+			</div>
+		</StyledAboutMe>
+	);
+};

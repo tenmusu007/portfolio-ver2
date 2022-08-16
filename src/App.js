@@ -1,25 +1,21 @@
 import './App.css';
-import Button from '@mui/material/Button';
-import { Typography } from '@mui/material';
-import HomeIcon from '@mui/icons-material/Home';
-import { Header } from './components/Header';
-import { AboutMe } from './components/AboutMe';
-import { Work } from './components/Work';
-import { Intro } from './components/Intro';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import DetailWork from './components/DetailWork';
+import { LinkProvider } from "./useContext/linkContext"
+import data from './workData/data';
+
+
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Intro/>
-      <AboutMe />
-      <Work />
-      
-      {/* <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
-      <Typography variant='h1' mt={2}> Hello </Typography>
-      <HomeIcon></HomeIcon> */}
-    </div>
+    <LinkProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path={'/:id'} element={<DetailWork data={data} />} />
+        </Routes>
+      </BrowserRouter>
+    </LinkProvider>
   );
 }
 
