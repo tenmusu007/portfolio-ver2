@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import img from "../../img/bgimg4.jpg";
 export const StyledIntro = styled.section`
 	font-family: "Playfair Display", serif;
 	margin-top: 2rem;
 	padding-bottom: 3rem;
 	.bgimg {
 		height: 100vh;
-		background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
+		background-image: url("${img}");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
@@ -64,7 +65,7 @@ export const StyledIntro = styled.section`
 	@media only screen and (max-width: 900px) {
 		.bgimg {
 			height: 100vh;
-			background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
+			background-image: url("${img}");
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-attachment: fixed;
