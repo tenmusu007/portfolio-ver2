@@ -4,10 +4,15 @@ import { StyledWork } from "../styles/Work.styled";
 import { Link } from "react-router-dom";
 import data from "../workData/data";
 import { useLinkContext } from "../useContext/linkContext";
+import { ThemeProvider } from "@mui/material/styles";
+import { theme } from "../components/Home";
+
+
 
 export const Work = () => {
 	const { setLink } = useLinkContext();
 	return (
+		<ThemeProvider theme={theme}>
 		<StyledWork id='work'>
 			<h2 className='WorkTitle'>Work</h2>
 			<Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
@@ -35,6 +40,7 @@ export const Work = () => {
 					);
 				})}
 			</Grid>
-		</StyledWork>
+			</StyledWork>
+			</ThemeProvider>
 	);
 };
