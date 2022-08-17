@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledFooter } from "./styles/Footer.styled";
+import { StyledFooter } from "../styles/Footer.styled";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useLinkContext } from "../useContext/linkContext";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";

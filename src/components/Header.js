@@ -1,6 +1,6 @@
 // import { Typography } from '@mui/material'
 import React from "react";
-import { StyledHeader } from "./styles/Header.styles";
+import { StyledHeader } from "../styles/Header.styles";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useMediaQuery } from "@mui/material";
 import AppBar from "@mui/material/AppBar";

@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import { Header } from "./Header";
 import { Intro } from "./Intro";
 import { Work } from "./Work";
-import { Globalstyle } from "../components/styles/Globalstyle.styled";
+import { Globalstyle } from "../styles/Globalstyle.styled";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 export const theme = createTheme({
 	palette: {

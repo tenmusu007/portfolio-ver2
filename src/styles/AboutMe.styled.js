@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import img from "../../img/bgimg4.jpg";
+import img from "../img/bgimg4.jpg";
 
 export const StyledAboutMe = styled.section`
 	font-family: "Playfair Display", serif;

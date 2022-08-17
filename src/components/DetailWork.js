@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledDetailWork } from "./styles/Detail.styled";
+import { StyledDetailWork } from "../styles/Detail.styled";
 import { useParams, Link } from "react-router-dom";
 import { Button, Grid } from "@mui/material";
 import { theme } from "../components/Home";

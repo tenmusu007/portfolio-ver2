@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import { StyledWork } from "./styles/Work.styled";
+import { StyledWork } from "../styles/Work.styled";
 import { Link } from "react-router-dom";
 import data from "../workData/data";
 import { useLinkContext } from "../useContext/linkContext";

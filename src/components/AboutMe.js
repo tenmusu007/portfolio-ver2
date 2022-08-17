@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutIntro } from "./AboutIntro";
 import Skilles from "./Skilles";
-import { StyledAboutMe } from "./styles/AboutMe.styled";
+import { StyledAboutMe } from "../styles/AboutMe.styled";
 
 export const AboutMe = () => {
 	return (

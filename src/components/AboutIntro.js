@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Grid, Button } from "@mui/material";
-import { StyledAboutintro } from "../components/styles/Aboutintro.styled";
+import { StyledAboutintro } from "../styles/Aboutintro.styled";
 import { motion } from "framer-motion";
 import img from "../img/myself.jpeg";
 

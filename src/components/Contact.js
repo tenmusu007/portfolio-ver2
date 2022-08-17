@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledContact } from "./styles/Contact.styled";
+import { StyledContact } from "../styles/Contact.styled";
 import { Icon } from "@iconify/react";
 export const Contact = () => {
 	return (

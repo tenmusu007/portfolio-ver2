@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from '@mui/material'
 import { Icon } from '@iconify/react';
-import { StyledFrontend } from '../styles/Frontend.styled'
+import { StyledFrontend } from "../../styles/Frontend.styled";
 
 const Frontend = () => {
   const iconArr = [{icon : "logos:html-5"},{icon : "vscode-icons:file-type-js-official"}, {icon : "fontisto:jquery", color : "blue"}, {icon : "logos:react"}] 

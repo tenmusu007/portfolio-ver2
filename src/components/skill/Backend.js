@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid } from '@mui/material'
 import { Icon } from '@iconify/react';
-import { StyledFrontend } from '../styles/Frontend.styled'
+import { StyledFrontend } from "../../styles/Frontend.styled";
 
 const Backend = () => {
   const iconArr = [{ icon: "vscode-icons:file-type-node" }, { icon: "logos:firebase" }, { icon: "logos:mongodb-icon" }, { icon: "logos:npm", width: "70px", size: "15px"}]
