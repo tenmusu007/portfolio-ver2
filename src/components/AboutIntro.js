@@ -72,7 +72,7 @@ export const AboutIntro = () => {
 					<Grid item xs={12} sm={12} md={modal ? 6 : 4}>
 						<div className='imgContainer'>
 							<img
-								src={`${process.env.PUBLIC_URL}/img/myself.jpeg `}
+								src={`${process.env.PUBLIC_URL}/img/myself.jpeg`}
 								alt='atsupic'
 								className={!modal ? "AboutMeImgChange" : "AboutMeImg"}
 							/>
