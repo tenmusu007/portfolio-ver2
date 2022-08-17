@@ -1,11 +1,13 @@
-import styled from "styled-components";
+import styled from "styled-components"
+import img from "../../img/bgimg4.jpg";
+
 export const StyledAboutMe = styled.section`
 	font-family: "Playfair Display", serif;
 	width: 75%;
 	margin: 0 auto;
 	margin-top: 100px;
 	height: auto;
-	background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
+	background-image: url("${img}");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -13,7 +15,7 @@ export const StyledAboutMe = styled.section`
 	color: white;
 	@media only screen and (max-width: 900px) {
 		height: 100vh;
-		background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
+		background-image: url("${img}");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;

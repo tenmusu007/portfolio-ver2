@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Grid, Button } from "@mui/material";
 import { StyledAboutintro } from "../components/styles/Aboutintro.styled";
 import { motion } from "framer-motion";
+import img from "../img/myself.jpeg";
 
 export const AboutIntro = () => {
 	const [modal, setModal] = useState(true);
@@ -72,7 +73,7 @@ export const AboutIntro = () => {
 					<Grid item xs={12} sm={12} md={modal ? 6 : 4}>
 						<div className='imgContainer'>
 							<img
-								src={`${process.env.PUBLIC_URL}/img/myself.jpeg `}
+								src={img}
 								alt='atsupic'
 								className={!modal ? "AboutMeImgChange" : "AboutMeImg"}
 							/>
