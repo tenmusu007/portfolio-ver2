@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<Header />} />
+          <Route path="/header" element={<Header />} />
           <Route path={'/:id'} element={<DetailWork data={data} />} />
         </Routes>
       </BrowserRouter>
