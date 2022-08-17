@@ -5,6 +5,7 @@ import DetailWork from './components/DetailWork';
 import { LinkProvider } from "./useContext/linkContext"
 import data from './workData/data';
 import { Header } from './components/Header';
+import { Intro } from './components/Intro';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/header" element={<Header />} />
+          <Route path="/intro" element={<Intro />} />
           <Route path={'/:id'} element={<DetailWork data={data} />} />
         </Routes>
       </BrowserRouter>

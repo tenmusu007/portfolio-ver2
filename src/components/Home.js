@@ -24,14 +24,14 @@ export const theme = createTheme({
 const Home = () => {
 	return (
 		<ThemeProvider theme={theme}>
-			<Globalstyle>
+			{/* <Globalstyle> */}
 				<Header />
 				<Intro />
 				<Work />
 				<AboutMe />
 				<Contact />
 				<Footer />
-			</Globalstyle>
+			{/* </Globalstyle> */}
 		</ThemeProvider>
 	);
 };
