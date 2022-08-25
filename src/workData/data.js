@@ -6,7 +6,7 @@ const data = [
 			`${process.env.PUBLIC_URL}/img/linkTree.png`,
 			`${process.env.PUBLIC_URL}/img/linkTree2.png`,
 		],
-		work: "https://main.d299m0b6ietato.amplifyapp.com/",
+		work: "https://ver1-6.d299m0b6ietato.amplifyapp.com/",
 		repoUrl: "https://github.com/tenmusu007/link-tree-ver1.6",
 		desc: "Link Tree is link organized web application",
 		desc2:
