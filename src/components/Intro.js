@@ -1,6 +1,6 @@
 import { Button, Grid } from '@mui/material'
 import React, { useEffect, useState } from 'react'
-import { StyledIntro } from "./styles/I ntro.styled"
+import { StyledIntro } from "./styles/Intro.styled"
 import { useLinkContext } from '../useContext/linkContext';
 // import bg from "./styles/bgImg"
 
