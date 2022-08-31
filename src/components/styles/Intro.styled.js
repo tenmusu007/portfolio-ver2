@@ -77,6 +77,18 @@ export const StyledIntro = styled.section`
 			-webkit-background-size: cover;
 			filter: blur(5px);
 		}
+		.bgimg::before {
+			height: 100vh;
+			background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position-x: 50%;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
+			filter: blur(5px);
+		}
 		.welcome {
 			color: white;
 			text-align: center;
