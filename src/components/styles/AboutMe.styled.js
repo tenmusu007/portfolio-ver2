@@ -84,13 +84,19 @@ export const StyledAboutMe = styled.section`
 		margin: 5px 10px 0 10px;
 		font-size: 25px;
 	}
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 900px) {
 		.aboutTxt {
 			width: 75%;
 			padding: 0px 0px;
 			line-height: 2;
 			font-size: 10px;
 			margin: 0 auto;
+		}
+		.AboutMeImgChange {
+			width: 100%;
+			object-fit: contain;
+			border-radius: 50%;
+			margin-top: 30px;
 		}
 		.imgContainer {
 			width: 75%;

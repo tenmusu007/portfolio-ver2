@@ -9,6 +9,9 @@ export const StyledIntro = styled.section`
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
 		filter: blur(5px);
 	}
 
@@ -69,6 +72,9 @@ export const StyledIntro = styled.section`
 			background-size: cover;
 			background-attachment: fixed;
 			background-position-x: 50%;
+			-o-background-size: cover;
+			-moz-background-size: cover;
+			-webkit-background-size: cover;
 			filter: blur(5px);
 		}
 		.welcome {
