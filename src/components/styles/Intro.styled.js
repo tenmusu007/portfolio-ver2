@@ -68,7 +68,7 @@ export const StyledIntro = styled.section`
 			background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
-			/* background-attachment: fixed; */
+			background-attachment: unset;
 			background-position-x: 50%;
 			/* -o-background-size: cover;
 			-moz-background-size: cover;

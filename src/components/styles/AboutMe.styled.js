@@ -16,7 +16,7 @@ export const StyledAboutMe = styled.section`
 		background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		/* background-attachment: fixed; */
+		background-attachment: unset;
 		background-position-x: 50%;
 		height: auto;
 		padding: 30px;
