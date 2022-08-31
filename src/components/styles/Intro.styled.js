@@ -9,7 +9,7 @@ export const StyledIntro = styled.section`
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position-x: 50%;
-		background-attachment: fixed;
+		/* background-attachment: fixed; */
 		filter: blur(5px);
 	}
 
@@ -68,7 +68,7 @@ export const StyledIntro = styled.section`
 			background-image: url("${process.env.PUBLIC_URL}/img/bgimg4.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-attachment: fixed;
+			/* background-attachment: fixed; */
 			background-position-x: 50%;
 			/* -o-background-size: cover;
 			-moz-background-size: cover;
