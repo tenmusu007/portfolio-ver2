@@ -4,7 +4,13 @@ import { Icon } from '@iconify/react';
 import { StyledFrontend } from '../styles/Frontend.styled'
 
 const Frontend = () => {
-  const iconArr = [{icon : "logos:html-5"},{icon : "vscode-icons:file-type-js-official"}, {icon : "fontisto:jquery", color : "blue"}, {icon : "logos:react"}] 
+  const iconArr = [
+		{ icon: "logos:html-5" },
+		{ icon: "vscode-icons:file-type-js-official" },
+		{ icon: "fontisto:jquery", color: "blue" },
+		{ icon: "logos:react" },
+		{ icon: "logos:typescript-icon" },
+	]; 
   const iconArrStyle = ["logos:css-3", "vscode-icons:file-type-scss", "logos:material-ui", "logos:bootstrap"]
   return (
     <StyledFrontend>

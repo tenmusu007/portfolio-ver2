@@ -93,7 +93,7 @@ export const StyledAboutMe = styled.section`
 			margin: 0 auto;
 		}
 		.AboutMeImgChange {
-			width: 100%;
+			width: 50%;
 			object-fit: contain;
 			border-radius: 50%;
 			margin-top: 30px;

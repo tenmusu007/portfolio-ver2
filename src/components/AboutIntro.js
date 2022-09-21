@@ -22,10 +22,9 @@ export const AboutIntro = () => {
 						{modal && (
 							<div>
 								<p className='aboutTxt'>
-									I was born and rasised in Osaka, Japan, I graduated from
-									Otemon University in 2021. My major was International Liberal
-									Art. I studied international Politics and team managiment
-									skills at the University.
+									I was born and raised in Osaka, Japan. I graduated from Otemon
+									University in 2021. I studied international Politics and team
+									management skills.
 								</p>
 							</div>
 						)}
@@ -49,21 +48,24 @@ export const AboutIntro = () => {
 							>
 								<div className={"extraTxt"}>
 									<p className='aboutTxt'>
-										I was born and rasised in Osaka, Japan, I graduated from
-										Otemon University in 2021. My major was International
-										Liberal Art. I studied international Politics and team
-										managiment skills at the University. I was thinking of
-										finding a job in Japan while in university, but I could not
-										forget the experience of studying abroad in Seattle, USA
-										when I was a second year, so I decided to learn English and
-										come true my dream of working abroad. I currently live in
-										Vancouver as a CICCC Wamd student to become a front-end
-										developer. I want to be a front-end engineer because I
-										started to be interested in it after taking a simple HTML
-										and CSS class at university. I was shocked to see how much
-										code is used to create even a simple website, so I started
-										studying independently. Now I am very happy to be learning
-										something new.
+										I was born and raised in Osaka, Japan. I graduated from
+										Otemon University in 2021. I studied international Politics
+										and team management skills. I'm here to become a Front-end
+										developer. I was going to work in Japan after graduating,
+										but I can't forget the moment of studying abroad in Seattle
+										when I was a student because, at that time, I struggled a
+										lot with English and felt how difficult to speak English.
+										Working abroad is one of my dreams, so I decided to go to
+										Vancouver. I know only studying English doesn't mean a lot
+										to me, so I've been interested in programming since I knew
+										my dad was an engineer. Before starting class, I had no idea
+										about programming, but now I enjoy learning new things
+										because if I learn something new and use it for my project,
+										I can feel I'm improving. That's why I like programming.
+										Background things aside, I like sports, especially soccer
+										and ping-pong, and I play soccer often at the weekend.
+										Ping-pong was my passion until I graduated from university.
+										Cooking is also my interest. My favorite food is pasta.
 									</p>
 								</div>
 							</motion.div>
