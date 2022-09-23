@@ -50,7 +50,7 @@ const data = [
 		repoUrl: "https://github.com/tenmusu007/ToDoList-React-ts/tree/main",
 		desc: "Simple To Do List",
 		desc2:
-			"This app is bulited by React-Typescript and Firebase. There is authentication for user. Each user can save their own TodoList. This app has two main features.  one of them is edit function. Even thought user created task, they can edit the task anytime. Another features is checkbox.  If user click the checkbox next to the list, todo list can not be able to edit. ",
+			"This app is bulited by React-Typescript and Firebase. There is authentication for user. Each user can save their own TodoList. This app has two main features.  one of them is edit function. Even if user created task by mistake, they can edit the task anytime. Another features is checkbox. If user click the checkbox next to the list, todo list can not be able to edit. ",
 	},
 	{
 		title: "Portfolio",
