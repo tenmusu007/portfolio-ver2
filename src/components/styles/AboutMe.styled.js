@@ -86,7 +86,7 @@ export const StyledAboutMe = styled.section`
 	}
 	@media only screen and (max-width: 900px) {
 		.aboutTxt {
-			width: 75%;
+			width: 62%;
 			padding: 0px 0px;
 			line-height: 2;
 			font-size: 10px;
@@ -100,7 +100,7 @@ export const StyledAboutMe = styled.section`
 		}
 		.imgContainer {
 			width: 75%;
-			height: 240px;
+			height: 200px;
 			margin: 0 auto;
 		}
 		.AboutMeTitle {
