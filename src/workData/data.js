@@ -66,5 +66,18 @@ const data = [
 		desc2:
 			"I'm not good at designing things. I like thinking about creating things, though. This time, I spent time on design than coding. I hope you like it.",
 	},
+	{
+		title: "Doctor Appointment [React, Redux, MongoDB, Firebase]",
+		to: "Doctor Appointment",
+		pic: [
+			`${process.env.PUBLIC_URL}/img/doctor.png`,
+			`${process.env.PUBLIC_URL}/img/doctor2.png`,
+		],
+		work: "https://doctor-appointment-dusky.vercel.app/home",
+		repoUrl: "http//url",
+		desc: "This is my Portfolio",
+		desc2:
+			"This is full stack web application. The porous of this application is that connecting doctor and patient. Four teammates, including me, created this project. I worked on some components and pages as a front-end engineer.",
+	},
 ];
 export default data
