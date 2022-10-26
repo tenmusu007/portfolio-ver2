@@ -10,6 +10,7 @@ const Frontend = () => {
 		{ icon: "fontisto:jquery", color: "blue" },
 		{ icon: "logos:react" },
 		{ icon: "logos:typescript-icon" },
+		{ icon: "logos:nextjs-icon" },
 	]; 
   const iconArrStyle = ["logos:css-3", "vscode-icons:file-type-scss", "logos:material-ui", "logos:bootstrap"]
   return (

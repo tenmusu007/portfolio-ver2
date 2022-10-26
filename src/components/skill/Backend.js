@@ -4,7 +4,13 @@ import { Icon } from '@iconify/react';
 import { StyledFrontend } from '../styles/Frontend.styled'
 
 const Backend = () => {
-  const iconArr = [{ icon: "vscode-icons:file-type-node" }, { icon: "logos:firebase" }, { icon: "logos:mongodb-icon" }, { icon: "logos:npm", width: "70px", size: "15px"}]
+  const iconArr = [
+		{ icon: "vscode-icons:file-type-node" },
+		{ icon: "logos:firebase" },
+		{ icon: "logos:mongodb-icon" },
+		{ icon: "logos:postgresql"},
+		{ icon: "logos:npm", width: "70px", size: "15px" },
+	];
   return (
     <StyledFrontend>
       <h3 className='icontitle'>Backend</h3>

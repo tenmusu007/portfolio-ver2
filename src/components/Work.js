@@ -4,6 +4,7 @@ import { StyledWork } from "./styles/Work.styled";
 import { Link } from "react-router-dom";
 import data from "../workData/data";
 import { useLinkContext } from "../useContext/linkContext";
+import { Icon } from "@iconify/react";
 
 export const Work = () => {
 	const { setLink } = useLinkContext();
@@ -29,6 +30,13 @@ export const Work = () => {
 									<img className='WorkImg' src={data.pic[0]} alt='workPic' />
 								</div>
 								<p className='workTxt'>{data.title}</p>
+								<div className="iconBox">
+									{data.tech.map((icon, index) => {
+										return (
+											<Icon icon={icon.icon} className='icon' key={index} />
+										);
+									})}
+								</div>
 								<p className='workTxt'>{data.desc}</p>
 							</Link>
 						</Grid>

@@ -17,6 +17,14 @@ export const StyledDetailWork = styled.section`
 		padding: 30px;
 		text-align: left;
 	}
+	.iconBox {
+		margin-top: 15px;
+		text-align: center;
+		.icon {
+			font-size: 25px;
+			margin: 0 10px;
+		}
+	}
 	.btn {
 		margin: 20px 10px 0 10px;
 		color: white;

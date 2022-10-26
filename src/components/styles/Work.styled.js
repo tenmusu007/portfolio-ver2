@@ -31,6 +31,13 @@ export const StyledWork = styled.section`
 		width: 50%;
 		margin: 0 auto;
 	}
+	.iconBox {
+		text-align: center;
+		.icon{
+			font-size: 25px;
+			margin: 0 10px;
+		}
+	}
 	.grid {
 		margin-top: 30px;
 		transition: all 0.2s ease-in-out;

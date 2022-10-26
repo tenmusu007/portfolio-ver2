@@ -6,6 +6,7 @@ import { theme } from "../components/Home";
 import { ThemeProvider } from "@mui/material/styles";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { motion } from "framer-motion";
+import { Icon } from "@iconify/react";
 
 const DetailWork = (props) => {
 	console.log(props);
@@ -62,6 +63,13 @@ const DetailWork = (props) => {
 									</Grid>
 									<Grid item xs={12} sm={6} md={6} className='grid'>
 										<h2 className='title'>{link.title}</h2>
+										<div className='iconBox'>
+											{link.tech.map((icon, index) => {
+												return (
+													<Icon icon={icon.icon} className='icon' key={index} />
+												);
+											})}
+										</div>
 										<p className='cardtxt'>{link.desc2}</p>
 										<a href={link.work} rel='noreferrer' target='_blank'>
 											<Button
