@@ -107,9 +107,9 @@ const data = [
 		],
 		work: "https://cookit-taupe.vercel.app/",
 		repoUrl: "https://github.com/tenmusu007/cook-friends/tree/main",
-		desc: "organized cooking recipe application",
+		desc: "management cooking recipe application",
 		desc2:
-			"This useful application is for everyone who wastes time thinking about today's dinner.This web application has 4pages. The fridge page, which is one of the main parts, can remember your fridge's current ingredients with the number and date when you add them. When you go home page, you will able to search any recipe by ingredients. Furthermore, when you choose one of the recipes, but you don't have a few ingredients. You can add those ingredients to the shopping list, so when you go to the supermarket, you don't need to remember the ingredients you need to buy for your dinner, Just open the ShoppingList page. You will see what you need  for tonight. There are many recipes on Coookit because we use Spoonacular API for getting recipes.",
+			"Before you use this application, going to GitHub repository and reading README is recommended. This useful application is for everyone who wastes time thinking about today's dinner. This web application has 4pages. The fridge page, which is one of the main parts, can remember your fridge's current ingredients with the number and date when you add them. On the home page, you can search for any recipe by ingredients. Furthermore, when you choose one of the recipes, you need to have a few ingredients. You can add those ingredients to the shopping list, so when you go to the supermarket, you don't need to remember the ingredients you have, and you need to buy them for your dinner, open the ShoppingList page. You will see what you need for tonight. There are many recipes on Coookit because we use Spoonacular API for getting recipes.",
 	},
 ];
 export default data
