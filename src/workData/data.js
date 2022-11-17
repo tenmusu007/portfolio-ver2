@@ -30,7 +30,7 @@ const data = [
 	{
 		title: "Black Jack ",
 		tech: [{ icon: "logos:react" }],
-		to: "Black-Jack-React",
+		to: "Black-Jack",
 		pic: [
 			`${process.env.PUBLIC_URL}/img/blackjackReact.png`,
 			`${process.env.PUBLIC_URL}/img/bjReactplay.png`,
@@ -38,7 +38,7 @@ const data = [
 		],
 		work: "https://main.d35692rvcqwiy8.amplifyapp.com/",
 		repoUrl: "https://github.com/tenmusu007/blackjack-react",
-		desc: "Black Jack - React has a few more features than.",
+		desc: "Simple casino game ",
 		desc2:
 			"This is simple blackjack jack game. User will play CPU. Card data come from free cards API. The data is passed between components by UseContext ",
 	},
@@ -109,7 +109,7 @@ const data = [
 		repoUrl: "https://github.com/tenmusu007/cook-friends/tree/main",
 		desc: "management cooking recipe application",
 		desc2:
-			"Before you use this application, going to GitHub repository and reading README is recommended. This useful application is for everyone who wastes time thinking about today's dinner. This web application has 4pages. The fridge page, which is one of the main parts, can remember your fridge's current ingredients with the number and date when you add them. On the home page, you can search for any recipe by ingredients. Furthermore, when you choose one of the recipes, you need to have a few ingredients. You can add those ingredients to the shopping list, so when you go to the supermarket, you don't need to remember the ingredients you have, and you need to buy them for your dinner, open the ShoppingList page. You will see what you need for tonight. There are many recipes on Coookit because we use Spoonacular API for getting recipes.",
+			"Before you use this application, going to GitHub repository and reading README are recommended. This useful application is for everyone who wastes time thinking about today's dinner. This web application has 4pages. The fridge page, which is one of the main parts, can remember your fridge's current ingredients with the number and date when you add them. On the home page, you can search for any recipe by ingredients. Furthermore, when you choose one of the recipes, you need to have a few ingredients. You can add those ingredients to the shopping list, so when you go to the supermarket, you don't need to remember the ingredients you have, and you need to buy them for your dinner, open the ShoppingList page. You will see what you need for tonight. There are many recipes on Coookit because we use Spoonacular API for getting recipes.",
 	},
 ];
 export default data
