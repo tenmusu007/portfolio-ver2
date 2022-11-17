@@ -8,13 +8,22 @@ export const Contact = () => {
 				<a
 					href='https://www.linkedin.com/in/atsuya-tanaka-566013229/'
 					rel='noreferrer'
+					target='_blank'
 				>
 					<Icon icon='akar-icons:linkedin-v1-fill' className='icon' />
 				</a>
-				<a href='https://github.com/tenmusu007' rel='noreferrer'>
+				<a
+					href='https://github.com/tenmusu007'
+					rel='noreferrer'
+					target='_blank'
+				>
 					<Icon icon='akar-icons:github-fill' className='icon' />
 				</a>
-				<a href='https://www.facebook.com/atsina.tanaka.1' rel='noreferrer'>
+				<a
+					href='https://www.facebook.com/atsina.tanaka.1'
+					rel='noreferrer'
+					target='_blank'
+				>
 					<Icon icon='brandico:facebook-rect' className='icon' />
 				</a>
 			</div>
