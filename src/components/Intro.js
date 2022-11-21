@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { StyledIntro } from "./styles/Intro.styled"
 import { useLinkContext } from '../useContext/linkContext';
 // import bg from "./styles/bgImg"
-
+import Resume from "../resume/Resume.pdf"
+import { Document, Page } from "react-pdf";
 
 
 export const Intro = () => {
@@ -26,23 +27,32 @@ export const Intro = () => {
 
 
   return (
-    <StyledIntro >
-      <div className='bgimg'></div>
-      <div className='Container'>
-        <h1 className='welcome' id='home' >{animation}</h1>
-        <Grid container
-          direction="row"
-          justifyContent="center"
-          alignItems="center"
-          className="section"
-          rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-          <Grid item xs={12} >
-            <p className='name'>ATSUYA TANAKA</p>
-            <p className='frontend'>Front-End Developer</p>
-            <Button variant='contained' color="btncolor"  className='btnFont' > Resume </Button>
-          </Grid>
-        </Grid>
-        </div>
-      </StyledIntro>
-  )
+		<StyledIntro>
+			<div className='bgimg'></div>
+			<div className='Container'>
+				<h1 className='welcome' id='home'>
+					{animation}
+				</h1>
+				<Grid
+					container
+					direction='row'
+					justifyContent='center'
+					alignItems='center'
+					className='section'
+					rowSpacing={1}
+					columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+				>
+					<Grid item xs={12}>
+						<p className='name'>ATSUYA TANAKA</p>
+						<p className='frontend'>Front-End Developer</p>
+						<Button variant='contained' color='btncolor' className='btnFont'>
+              <a href={Resume} target='_blank' rel="noreferrer" style={{ "color":"white"}}>
+								Resume
+							</a>
+						</Button>
+					</Grid>
+				</Grid>
+			</div>
+		</StyledIntro>
+	);
 }
