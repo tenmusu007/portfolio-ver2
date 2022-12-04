@@ -3,8 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { StyledIntro } from "./styles/Intro.styled"
 import { useLinkContext } from '../useContext/linkContext';
 // import bg from "./styles/bgImg"
-import Resume from "../resume/Resume.pdf"
-import { Document, Page } from "react-pdf";
 
 
 export const Intro = () => {
@@ -46,7 +44,12 @@ export const Intro = () => {
 						<p className='name'>ATSUYA TANAKA</p>
 						<p className='frontend'>Front-End Developer</p>
 						<Button variant='contained' color='btncolor' className='btnFont'>
-              <a href={Resume} target='_blank' rel="noreferrer" style={{ "color":"white"}}>
+							<a
+								href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+								target='_blank'
+								rel='noreferrer'
+								style={{ color: "white" }}
+							>
 								Resume
 							</a>
 						</Button>
