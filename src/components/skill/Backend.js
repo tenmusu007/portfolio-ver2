@@ -9,7 +9,6 @@ const Backend = () => {
 		{ icon: "logos:firebase" },
 		{ icon: "logos:mongodb-icon" },
 		{ icon: "logos:postgresql"},
-		// { icon: "logos:npm", width: "70px", size: "15px" },
 	];
   return (
     <StyledFrontend>
