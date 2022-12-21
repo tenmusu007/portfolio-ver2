@@ -109,7 +109,27 @@ const data = [
 		repoUrl: "https://github.com/tenmusu007/cook-friends/tree/main",
 		desc: "management cooking recipe application",
 		desc2:
-			"Before you use this application, going to GitHub repository and reading README are recommended. This useful application is for everyone who wastes time thinking about today's dinner. This web application has 4pages. The fridge page, which is one of the main parts, can remember your fridge's current ingredients with the number and date when you add them. On the home page, you can search for any recipe by ingredients. Furthermore, when you choose one of the recipes, you need to have a few ingredients. You can add those ingredients to the shopping list, so when you go to the supermarket, you don't need to remember the ingredients you have, and you need to buy them for your dinner, open the ShoppingList page. You will see what you need for tonight. There are many recipes on Coookit because we use Spoonacular API for getting recipes.",
+			"Before you use this application, going to GitHub repository and reading README are recommended. The reasone why I create this app is I wanted to expand my connection in school for making new friends and work some project with other course students who studeis UI & UX or Degital Marketing. This app provides real time chat by soket.io.",
+	},
+	{
+		title: "Chillip",
+		tech: [
+			{ icon: "logos:react" },
+			{ icon: "logos:material-ui" },
+			{ icon: "vscode-icons:file-type-node" },
+			{ icon: "logos:mongodb-icon" },
+			{ icon: "tabler:brand-socket-io" },
+		],
+		to: "Chillip",
+		pic: [
+			`${process.env.PUBLIC_URL}/img/chillip.png`,
+			`${process.env.PUBLIC_URL}/img/chillip3.png`,
+		],
+		work: "https://main.d1q845p9ygn1yh.amplifyapp.com/login",
+		repoUrl: "https://github.com/tenmusu007/matchingapp-frontend",
+		desc: "casual matching applicaiton",
+		desc2:
+			"Before you use this application, going to GitHub repository and reading README are recommended. The reasons why I create this app is I wanted to expand my connection in school for making new friends and work some project with other course students who studies UI & UX or Digital Marketing. This app provides real time chat by soket.io.",
 	},
 ];
 export default data
